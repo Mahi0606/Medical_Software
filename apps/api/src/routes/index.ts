@@ -1,0 +1,30 @@
+import type { FastifyPluginAsync } from 'fastify';
+import { authRoutes } from './auth.js';
+import { storeRoutes } from './store.js';
+import { backupRoutes } from './backup.js';
+import { catalogRoutes } from './catalog.js';
+import { partyRoutes } from './parties.js';
+import { purchaseRoutes } from './purchases.js';
+import { salesRoutes } from './sales.js';
+import { miscRoutes } from './misc.js';
+import { routes as purchaseOrderRoutes } from './purchase-orders.js';
+import { routes as messagingRoutes } from './messaging.js';
+import { routes as exportRoutes } from './exports.js';
+import { routes as interactionRoutes } from './interactions.js';
+import { routes as syncRoutes } from './sync.js';
+
+export const registerRoutes: FastifyPluginAsync = async (app) => {
+  await app.register(authRoutes, { prefix: '/auth' });
+  await app.register(storeRoutes);
+  await app.register(backupRoutes);
+  await app.register(catalogRoutes);
+  await app.register(partyRoutes);
+  await app.register(purchaseRoutes);
+  await app.register(salesRoutes);
+  await app.register(miscRoutes);
+  await app.register(purchaseOrderRoutes);
+  await app.register(messagingRoutes);
+  await app.register(exportRoutes);
+  await app.register(interactionRoutes);
+  await app.register(syncRoutes);
+};
