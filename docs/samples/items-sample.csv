@@ -1,0 +1,7 @@
+name,generic,form,manufacturer,hsn,gst,schedule,units_per_pack,pack_name,base_unit,rack,ean,min_stock
+Calpol 500,Paracetamol 500 mg,tablet,GSK,3004,5,NONE,15,strip,tablet,A1,,30
+Sporlac DS,Lactic acid bacillus 150 million spores,tablet,Sanzyme,3004,5,NONE,10,strip,tablet,H2,,10
+Norflox TZ,Norfloxacin 400 mg + Tinidazole 600 mg,tablet,Cipla,3004,5,H1,10,strip,tablet,B2,,10
+Duolin Respules,Ipratropium 500 mcg + Levosalbutamol 1.25 mg,solution,Cipla,3004,5,H,1,respule,respule,E1,,5
+Cough syrup Ascoril LS 100ml,Ambroxol 30 mg + Levosalbutamol 1 mg + Guaifenesin 50 mg per 5 ml,syrup,Glenmark,3004,12,H,1,bottle,bottle,D1,,5
+Moov Cream 30g,Diclofenac 1.16 % + Menthol 5 %,cream,Reckitt,3004,12,NONE,1,tube,tube,G1,,5
